@@ -94,16 +94,15 @@ a.button:hover{
 }
 
 .project-text {
-  position: relative;
+  	position: relative;
 	text-align: justify;
 	height: 230px;
 }
 
 .tech {
-  vertical-align: bottom;
-  position: absolute;
-  bottom:5px;
-  left:10;
+  	position: absolute;
+  	bottom:5px;
+  	left:10;
 }
 
 
