@@ -99,12 +99,6 @@ a.button:hover{
 	height: 230px;
 }
 
-.link{
-  position:absolute;
-  right:10px;
-  top:25px;
-}
-
 .tech {
   vertical-align: bottom;
   position: absolute;
