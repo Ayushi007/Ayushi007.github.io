@@ -16,7 +16,9 @@ hr {
     width: 75%;
     margin: auto;
 }
+
 section{
+  display: block;
 	padding-top: 3rem;
 	padding-bottom: 3rem;
 }
@@ -92,9 +94,24 @@ a.button:hover{
 }
 
 .project-text {
+  position: relative;
 	text-align: justify;
 	height: 230px;
 }
+
+.link{
+  position:absolute;
+  right:10px;
+  top:25px;
+}
+
+.tech {
+  vertical-align: bottom;
+  position: absolute;
+  bottom:5px;
+  left:10;
+}
+
 
 .skill-text {
 	text-align: justify;
@@ -103,8 +120,7 @@ a.button:hover{
 
 .box {
 	background-color: transparent;
-/*	border: 2px solid rgba(7, 59, 79, 0.5);
-*/	border: 0.8px dashed #FF69B4;
+  border: 0.8px dashed #FF69B4;
 }
 
 .title {
